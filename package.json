@@ -1,0 +1,30 @@
+{
+  "name": "error-if-index-not-valid-after-offset-was-added",
+  "version": "1.0.0",
+  "description": "Function triggers error if passed index is not valid, assuming an offset was recently added to it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/error-if-index-not-valid-after-offset-was-added.git"
+  },
+  "keywords": [
+    "array",
+    "index",
+    "validation",
+    "checking",
+    "error",
+    "message"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/writetome51/error-if-index-not-valid-after-offset-was-added/issues"
+  },
+  "homepage": "https://github.com/writetome51/error-if-index-not-valid-after-offset-was-added#readme",
+  "dependencies": {
+    "@writetome51/index-is-valid": "~1.0.0"
+  }
+}
