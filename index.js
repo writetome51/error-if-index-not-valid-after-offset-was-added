@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var index_is_valid_1 = require("@writetome51/index-is-valid");
 function errorIfIndexNotValidAfterOffsetWasAdded(index, arrayLength) {
-    var errorPrefix = "After the offset was added to the index of the passed value, the resulting index ";
+    var errorPrefix = "After the offset was added to the index, the resulting index ";
     if (index < 0) {
         throw new Error(errorPrefix + "was a negative number. This is not allowed.");
     }
